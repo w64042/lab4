@@ -1,3 +1,5 @@
+package com.example;
+
 class Trojkat extends Figura
 {
 	int wys=0;
@@ -20,7 +22,7 @@ class Trojkat extends Figura
 
 	@Override
 	public String toString() {
-		return "Trojkat{" +
+		return "com.example.Trojkat{" +
 				"punkt=" + punkt +
 				", kolor='" + kolor + '\'' +
 				", wys=" + wys +

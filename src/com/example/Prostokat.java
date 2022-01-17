@@ -1,3 +1,5 @@
+package com.example;
+
 class Prostokat extends Figura  {
 	int wys=0;
 	int szer=0;
@@ -20,7 +22,7 @@ class Prostokat extends Figura  {
 
 	@Override
 	public String toString() {
-		return "Prostokat{" +
+		return "com.example.Prostokat{" +
 				"punkt=" + punkt +
 				", kolor='" + kolor + '\'' +
 				", wys=" + wys +

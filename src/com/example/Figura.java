@@ -1,4 +1,6 @@
-class Figura {
+package com.example;
+
+public class Figura {
 	
 	//pola metody i kontruktory
 	Punkt punkt;
@@ -31,7 +33,7 @@ class Figura {
 
 	@Override
 	public String toString() {
-		return "Figura{" +
+		return "com.example.Figura{" +
 				"punkt=" + punkt +
 				", kolor='" + kolor + '\'' +
 				'}';

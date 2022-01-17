@@ -1,4 +1,6 @@
-class Punkt
+package com.example;
+
+public class Punkt
 {
 	//pola
     int x = 0;
@@ -39,7 +41,7 @@ class Punkt
 
     @Override
     public String toString() {
-        return "Punkt{" +
+        return "com.example.Punkt{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';

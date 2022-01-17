@@ -1,3 +1,5 @@
+package com.example;
+
 public class Kwadrat extends Prostokat {
 
     public Kwadrat(int wys,int szer){
@@ -8,7 +10,7 @@ public class Kwadrat extends Prostokat {
 
     @Override
     public String toString() {
-        return "Kwadrat{" +
+        return "com.example.Kwadrat{" +
                 "punkt=" + punkt +
                 ", kolor='" + kolor + '\'' +
                 ", wys=" + wys +
